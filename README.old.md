@@ -1,1 +1,0 @@
-# smart-cities-tech-radar
