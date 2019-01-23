@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Introduction from './Introduction.js';
+import Navbar from './Navbar.js';
+import radarData from './radar.json';
+import Quadrant from './Quadrant.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and go away.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <div className="container pb-5">
+          <Navbar />
+          <Introduction />
+          <Quadrant name="Platforms" rings={radarData.platforms} category="platforms" />
+          <Quadrant name="Languages & Frameworks" rings={radarData.languages_frameworks} category="languages" />
+          <Quadrant name="Tools" rings={radarData.tools} category="tools" />
+          <Quadrant name="Techniques" rings={radarData.techniques} category="techniques" />
+        </div>
       </div>
     );
   }
