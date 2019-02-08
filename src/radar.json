@@ -104,7 +104,6 @@
 			"Game Day",
 			"PRPL Pattern",
 			"Red Team",
-			"Security Assessments",
 			"Technical Partner Management",
 			"Tracing"
 		],
@@ -112,6 +111,7 @@
 			"DevOps",
 			"TDD",
 			"Support Engineering",
+			"Security Static/Dynamic Analysis",
 			"Writing OSS"
 		],
 		"adopt": [
