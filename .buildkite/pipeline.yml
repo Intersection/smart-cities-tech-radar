@@ -1,0 +1,11 @@
+steps:
+  - label: "Build and push to GitHub Pages"
+    branches: "master"
+    command:
+      - docker-compose build
+      - 'docker-compose run
+        -e EMAIL="buildkite@intersection.com"
+        -e GIT_AUTHOR_NAME="IxN Buildkite" web
+        yarn deploy'
+    agents:
+      - queue=link-aws-prod-nyc
