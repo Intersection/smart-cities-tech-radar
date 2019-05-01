@@ -1,126 +1,127 @@
 {
-	"platforms": {
-		"hold": [
-			"Android",
-			"Docker Swarm",
-			"Elastic Beanstalk",
-			"GCP for Infrastructure",
-			"Lambda / Serverless"
-		],
-		"assess": [
-			"Cross-platform mobile",
-			"Embedded Containers",
-			"Kubernetes",
-			"Redshift",
-			"Yocto"
-		],
-		"trial": [
-			"Cloudformation"
-		],
-		"adopt": [
-			"Android for applications",
-			"AWS",
-			"Containers",
-			"iOS",
-			"Linux",
-			"VoIP",
-			"Web / Browser"
-		]
-	},
-	"languages_frameworks": {
-		"hold": [
-			"Django",
-			"Java",
-			"Play Framework",
-			"PHP",
-			"Scala"
-		],
-		"assess": [
-			"Go",
-			"Java 11",
-			"React Native",
-			"Spring Boot"
-		],
-		"trial": [
-			"Kotlin",
-			"TypeScript"
-		],
-		"adopt": [
-			"Docker",
-			"Docker Compose",
-			"JavaScript",
-			"Python",
-			"Swift",
-			"React",
-			"Redux"
-		]
-	},
-	"tools": {
-		"hold": [
-			"Broadsign Admin",
-			"Okta",
-			"Splunk for service desk"
-		],
-		"assess": [
-			"Bubble IQ",
-			"DialogFlow",
-			"HTTP/2 and QUIC",
-			"Linux Development",
-			"R",
-			"SonarQube",
-			"Timescale DB"
-		],
-		"trial": [
-			"Appium",
-			"Auth0",
-			"Code Climate",
-			"ElasticSearch",
-			"GRPC",
-			"Insomnia",
-			"JSON Query",
-			"Python Debugger"
-		],
-		"adopt": [
-			"BuddyBuild",
-			"Buildkite",
-			"Datadog",
-			"Google Analytics",
-			"JIRA",
-			"Management Agent",
-			"PyCharm / JetBrains",
-			"Sentry",
-			"Splunk for logging",
-			"Zendesk"
-		]
-	},
-	"techniques": {
-		"hold": [
-			"Bikeshedding"
-		],
-		"assess": [
-			"Agile Service Desk",
-			"Component libs",
-			"Dashboard Driven Design",
-			"Game Day",
-			"PRPL Pattern",
-			"Red Team",
-			"Technical Partner Management",
-			"Tracing"
-		],
-		"trial": [
-			"DevOps",
-			"TDD",
-			"Support Engineering",
-			"Security Static/Dynamic Analysis",
-			"Writing OSS"
-		],
-		"adopt": [
-			"Automated Testing",
-			"Code Reviews",
-			"Iterative Development",
-			"Service Oriented Architecture",
-			"Static Code Analysis",
-			"Team Retrospectives"
-		]
-	}
+  "platforms": {
+    "hold": [
+      "Android",
+      "Docker Swarm",
+      "Elastic Beanstalk",
+      "GCP for Infrastructure",
+      "Lambda / Serverless"
+    ],
+    "assess": [
+      "Cross-platform mobile",
+      "Embedded Containers",
+      "Kubernetes",
+      "Redshift",
+      "Yocto"
+    ],
+    "trial": [
+      "Cloudformation"
+    ],
+    "adopt": [
+      "Android for applications",
+      "AWS",
+      "Containers",
+      "iOS",
+      "Linux",
+      "VoIP",
+      "Web / Browser"
+    ]
+  },
+  "languages_frameworks": {
+    "hold": [
+      "Django",
+      "Java",
+      "Play Framework",
+      "PHP",
+      "Scala"
+    ],
+    "assess": [
+      "Java 11",
+      "React Native",
+      "Spring Boot"
+    ],
+    "trial": [
+      "Go",
+      "Kafka",
+      "Kotlin",
+      "TypeScript"
+    ],
+    "adopt": [
+      "Docker",
+      "Docker Compose",
+      "JavaScript",
+      "Python",
+      "Swift",
+      "React",
+      "Redux"
+    ]
+  },
+  "tools": {
+    "hold": [
+      "Broadsign Admin",
+      "Okta",
+      "Splunk for service desk"
+    ],
+    "assess": [
+      "Bubble IQ",
+      "DialogFlow",
+      "HTTP/2 and QUIC",
+      "Linux Development",
+      "R",
+      "SonarQube",
+      "Timescale DB"
+    ],
+    "trial": [
+      "Appium",
+      "Auth0",
+      "Code Climate",
+      "ElasticSearch",
+      "GRPC",
+      "Insomnia",
+      "JSON Query",
+      "Python Debugger"
+    ],
+    "adopt": [
+      "BuddyBuild",
+      "Buildkite",
+      "Datadog",
+      "Google Analytics",
+      "JIRA",
+      "Management Agent",
+      "PyCharm / JetBrains",
+      "Sentry",
+      "Splunk for logging",
+      "Zendesk"
+    ]
+  },
+  "techniques": {
+    "hold": [
+      "Bikeshedding"
+    ],
+    "assess": [
+      "Agile Service Desk",
+      "Component libs",
+      "Dashboard Driven Design",
+      "Game Day",
+      "PRPL Pattern",
+      "Red Team",
+      "Technical Partner Management",
+      "Tracing"
+    ],
+    "trial": [
+      "DevOps",
+      "TDD",
+      "Support Engineering",
+      "Security Static/Dynamic Analysis",
+      "Writing OSS"
+    ],
+    "adopt": [
+      "Automated Testing",
+      "Code Reviews",
+      "Iterative Development",
+      "Service Oriented Architecture",
+      "Static Code Analysis",
+      "Team Retrospectives"
+    ]
+  }
 }
