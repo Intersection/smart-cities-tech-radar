@@ -10,6 +10,7 @@
     "assess": [
       "Cross-platform mobile",
       "Embedded Containers",
+      "Free-tier Heroku",
       "Kubernetes",
       "Redshift",
       "Yocto"
