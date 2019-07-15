@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/smart-cities-tech-radar/precache-manifest.896f431c1375f3b5f958bf8e646300d9.js"
+  "/smart-cities-tech-radar/precache-manifest.ba3cbaccd58417150610f1140dc4808f.js"
 );
 
 workbox.clientsClaim();

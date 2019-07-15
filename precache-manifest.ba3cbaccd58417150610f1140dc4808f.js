@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/smart-cities-tech-radar/static/js/main.873844e4.chunk.js"
   },
   {
-    "revision": "70d1d106ef9327aeccd7",
-    "url": "/smart-cities-tech-radar/static/js/1.70d1d106.chunk.js"
+    "revision": "d3e00dba88a69ffd7aa4",
+    "url": "/smart-cities-tech-radar/static/js/1.d3e00dba.chunk.js"
   },
   {
     "revision": "873844e44e72866487f4",
     "url": "/smart-cities-tech-radar/static/css/main.7b53d6c7.chunk.css"
   },
   {
-    "revision": "5fdbfcacd728dca21379ebc57f9d8042",
+    "revision": "a0236e6b723a2ec245db1b204a04da4a",
     "url": "/smart-cities-tech-radar/index.html"
   }
 ];
